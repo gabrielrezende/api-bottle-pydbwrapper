@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "app_function": "main.app",
+    "aws_region": "sa-east-1",
+    "environment_variables": {
+      "ENVIROMENT":"development",
+      "DATABASE_HOST":"",
+      "DATABASE_PORT":"5432",
+      "DATABASE_DB_NAME":"",
+      "DATABASE_USER":"master",
+      "DATABASE_PASSWORD":""
+    },
+    "project_name": "bottle-api",
+    "runtime": "python3.7",
+    "vpc_config": {
+      "SecurityGroupIds": [],
+      "SubnetIds": []
+    }
+  },
+  "prod": {
+    "app_function": "main.app",
+    "aws_region": "sa-east-1",
+    "environment_variables": {
+    },
+    "project_name": "bottle-api",
+    "runtime": "python3.7",
+    "vpc_config": {
+      "SecurityGroupIds": [],
+      "SubnetIds": []
+    }
+  }
+}

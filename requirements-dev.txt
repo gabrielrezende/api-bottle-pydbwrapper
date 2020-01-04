@@ -1,0 +1,4 @@
+livereload==2.5.1
+zappa
+python-dotenv
+coverage
